@@ -38,7 +38,7 @@ async def typewriter(typew):
                      "`\n┻┳|￣  )`"
                      "`\n┳ﾐ(￣ ／`"
                      "`\n┻┳T￣|`"
-                     "\n**Masih Ku Pantau**")
+                     "\n**Masih Ku Pantau lu**")
 
 
 # Create by myself @localheart
