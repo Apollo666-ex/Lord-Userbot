@@ -105,7 +105,7 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"⎙ **Uptime:** "
                     f"`{uptime}` \n"
-                    f"**✦҈͜͡➳ **Its My Lord:** `{ALIVE_NAME}`" % (duration))
+                    f"✦҈͜͡➳ **Its My Lord:** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
