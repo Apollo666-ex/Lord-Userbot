@@ -434,7 +434,7 @@ async def typewriter(typew):
     await typew.edit("`Tapi Bo'ong`")
 # Create by myself @localheart
 
-@register(outgoing=True, pattern='^.salken(?: |$)(.*)')
+@register(outgoing=True, pattern='^.self(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`halo`")
