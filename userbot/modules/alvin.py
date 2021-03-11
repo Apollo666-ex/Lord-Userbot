@@ -448,6 +448,32 @@ async def typewriter(typew):
     await typew.edit("`Salken Ya pler`")
  #create by myself @lubego666
 
+@register(outgoing=True, pattern='^.bocah tolol (?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`punten`")
+    sleep(1)
+    await typew.edit("`salken`")
+    sleep(1)
+    await typew.edit("`cuma mau bilang`")
+    sleep(1)
+    await typew.edit("`gausah so asik`")
+    sleep(1)
+    await typew.edit("`emang kenal?`")
+    sleep(1)
+    await typew.edit("`ngaca anjing`")
+    sleep(1)
+    await typew.edit("`jadi bocah gausah so`")
+    sleep(1)
+    await typew.edit("`sini war`")
+    sleep(1)
+    await typew.edit("`jamet`")
+    sleep(1)
+    await typew.edit("`mental tempe`")
+    sleep(1)
+    await typew.edit("`anda kontol🔥`")
+# Create by myself @bryan
+
 CMD_HELP.update({
     "gabut":
     "`.gabut` ; `.dino`\
@@ -461,4 +487,5 @@ CMD_HELP.update({
     \n\n`.terkadang`\
     \nUsage: Auk dah iseng doang."
     \n\n`.b`\
+    \n\n`.bocah tolol`\
 })
