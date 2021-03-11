@@ -490,5 +490,5 @@ CMD_HELP.update({
     \n\n`.terkadang`\
     \nUsage: Auk dah iseng doang."
     \n\n`.salken`\
-    \n\n`.bocah tolol`\
+    \n\n`.bocah tolol."
 })
