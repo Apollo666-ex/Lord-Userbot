@@ -7,7 +7,7 @@ from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
 
 @register(outgoing=True, pattern=r'^.kekuatan(:? |$)([1-8])?')
 async def _(fry):
-    await fry.edit("`Lord Mengaktifkan Kekuatan Telegram...👾`")
+    await fry.edit("`𝐦𝐲 𝐛𝐨𝐬𝐬 𝐭𝐞𝐥𝐚𝐡 𝐦𝐞𝐧𝐠𝐞𝐥𝐮𝐚𝐫𝐤𝐚𝐧 𝐬𝐞𝐥𝐮𝐫𝐮𝐡 𝐤𝐞𝐤𝐮𝐚𝐭𝐚𝐧𝐧𝐲𝐚, 𝐛𝐞𝐫𝐮𝐛𝐚𝐡 𝐥𝐮 𝐧𝐠𝐞𝐧𝐭𝐨𝐝...👾`")
     level = fry.pattern_match.group(2)
     if fry.fwd_from:
         return
