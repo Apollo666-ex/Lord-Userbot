@@ -22,10 +22,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"**Maaf {ALIVE_NAME} Sedang OFF!**",
-    f"**Maaf {ALIVE_NAME} Sedang OFF\n Tunggu Sampai Online!**",
-    f"**{ALIVE_NAME} Sedang OFF\n Tunggulah Sampai Online**",
-    f"**Maaf {ALIVE_NAME} Sedang OFF!**",
+    f"**𝐁𝐨𝐬𝐬 {ALIVE_NAME} 𝐒𝐞𝐝𝐚𝐧𝐠 𝐎𝐅𝐅!**",
+    f"**𝐁𝐨𝐬𝐬 {ALIVE_NAME} 𝐒𝐞𝐝𝐚𝐧𝐠 𝐎𝐅𝐅\n 𝐓𝐮𝐧𝐠𝐠𝐮 𝐒𝐚𝐦𝐩𝐚𝐢 𝐎𝐧𝐥𝐢𝐧𝐞!**",
+    f"**{ALIVE_NAME} Sedang OFF\n 𝐓𝐮𝐧𝐠𝐠𝐮 𝐥𝐚𝐡 𝐬𝐚𝐦𝐩𝐚𝐢 𝐨𝐧𝐥𝐢𝐧𝐞**",
+    f"**𝐁𝐨𝐬𝐬 {ALIVE_NAME} 𝐒𝐞𝐝𝐚𝐧𝐠 𝐎𝐅𝐅!**",
 ]
 
 
@@ -60,10 +60,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**✥ {ALIVE_NAME} Telah OFF**\
+        await afk_e.edit(f"**♕︎ {ALIVE_NAME} 𝐓𝐞𝐥𝐚𝐡 𝐎𝐅𝐅**\
         \n➥ **Alasan:** `{string}`")
     else:
-        await afk_e.edit(f"**✥ {ALIVE_NAME} Telah OFF**")
+        await afk_e.edit(f"**♕︎ {ALIVE_NAME} 𝐓𝐞𝐥𝐚𝐡 𝐎𝐅𝐅**")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【⚒OFF⚒】"))
     else:
@@ -164,8 +164,8 @@ async def mention_afk(mention):
                 afk_since = f"`{int(seconds)} Detik`"
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"**✥ {ALIVE_NAME} Sedang OFF** {afk_since} **Yang Lalu.**\
-                        \n➥ **Alasan:** `{AFKREASON}`")
+                    await mention.reply(f"**♔︎ {ALIVE_NAME} Sedang OFF** {afk_since} **Yang Lalu.**\
+                        \n☞︎︎︎ **Alasan:** `{AFKREASON}`")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
                 USERS.update({mention.sender_id: 1})
@@ -173,8 +173,8 @@ async def mention_afk(mention):
             elif mention.sender_id in USERS:
                 if USERS[mention.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await mention.reply(f"**✥ {ALIVE_NAME} Masih OFF** {afk_since} **Yang Lalu.**\
-                            \n➥ **Alasan:** `{AFKREASON}`")
+                        await mention.reply(f"**♔︎ {ALIVE_NAME} Masih OFF** {afk_since} **Yang Lalu.**\
+                            \n☞︎︎︎ **Alasan:** `{AFKREASON}`")
                     else:
                         await mention.reply(str(choice(AFKSTR)))
                     USERS[mention.sender_id] = USERS[mention.sender_id] + 1
