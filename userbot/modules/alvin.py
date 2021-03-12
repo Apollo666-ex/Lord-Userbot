@@ -448,7 +448,7 @@ async def typewriter(typew):
     await typew.edit("`𝐒𝐚𝐥𝐤𝐞𝐧 𝐲𝐚𝐚 𝐩𝐥𝐞𝐫🔥`")
  #create by myself @lubego666
 
-@reguster(outgoing=True, pattern='^jamet(?: |$)(.*)')
+@register(outgoing=True, pattern='^jamet(?: |$)(.*)')
 async def typewriter(typew):
      typew.pattern_match.group(1)
      await typew.edit("`wooii anjing`")
