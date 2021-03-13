@@ -46,15 +46,15 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**★♆ 𝐰𝐨𝐢𝐢 ♆★**")
-    await pong.edit("**★✫ 𝐏𝐈𝐌 ★✫**")
-    await pong.edit("**★✫★ 𝐏𝐈𝐌 ★✫★**")
-    await pong.edit("**★✫★✫ 𝐏𝐎𝐌 ★✫★✫**")
+    await pong.edit("**★♆ 🆖🆎 ♆★**")
+    await pong.edit("**★✫ 𝗣𝗜𝗠 ★✫**")
+    await pong.edit("**★✫★ 𝗣𝗜𝗠 ★✫★**")
+    await pong.edit("**★✫★✫ 𝗣𝗢𝗠 ★✫★✫**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**𖣘 𝐌𝐲 𝐏𝐈𝐍𝐆** "
+    await pong.edit(f"**✵ 𝗠𝘆 𝗣𝗜𝗡𝗚** "
                     f"\n  ༆ `%sms` \n"
-                    f"**𖣘 𝐌𝐲 𝐁𝐎𝐒𝐒** "
+                    f"**✵ 𝗠𝘆 𝗕𝗢𝗦𝗦** "
                     f"\n  ༆ `{ALIVE_NAME}` \n" % (duration))
 
 
@@ -66,10 +66,10 @@ async def pingme(pong):
     await pong.edit("`Lord Ping......OI PLER..........`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**♧︎︎︎ 𝐏𝐨𝐧𝐠!**\n"
-                    f"♆ **𝐏𝐢𝐧𝐠:** "
+    await pong.edit(f"**♧︎︎ 𝗣𝗢𝗡𝗚!**\n"
+                    f"༆ **𝗣𝗜𝗡𝗚:** "
                     f"`%sms` \n"
-                    f"♆ **𝐔𝐩𝐭𝐢𝐦𝐞:** "
+                    f"༆ **𝗨𝗽𝘁𝗶𝗺𝗲:** "
                     f"`{uptime}` \n"
                     f"\n ༆ `{ALIVE_NAME}` \n" % (duration))
 
@@ -79,13 +79,13 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`Ping..............`")
+    await pong.edit("`𝙃𝙖𝙡𝙡𝙤 𝙅𝙤𝙣..............`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**Pong!**\n"
-                    f"☞ __𝐏𝐢𝐧𝐠:__ "
+                    f"☞ __𝙋𝙞𝙣𝙜:__ "
                     f"`%sms` \n"
-                    f"☞ __𝐔𝐩𝐭𝐢𝐦𝐞:__ "
+                    f"☞ __𝙐𝙥𝙩𝙞𝙢𝙚:__ "
                     f"`{uptime}` \n" % (duration))
 
 
@@ -102,12 +102,12 @@ async def pingme(pong):
     await pong.edit("**༆ 𝐏𝐎𝐍𝐆!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⚣︎ 𝐓𝐔𝐀𝐍 𝐀𝐏𝐎𝐋𝐋𝐎 ⚣︎**\n"
-                    f"♆ 𝙿𝙸𝙽𝙶:** "
+    await pong.edit(f"**♕︎ 𝘽𝙊𝙎𝙎 𝘼𝙋𝙊𝙇𝙇𝙊 ♕︎**\n"
+                    f"♆ 𝙋𝙄𝙉𝙂:** "
                     f"`%sms \n"
-                    f"♆ 𝚄𝙿𝚃𝙸𝙼𝙴:** "
+                    f"♆ 𝙐𝙋𝙏𝙄𝙈𝙀:** "
                     f"`{uptime} \n"
-                    f"**✞︎ 𝐌𝐘 𝐁𝐎𝐒𝐒:** {ALIVE_NAME}`" % (duration))
+                    f"**♕︎ 𝙈𝙔 𝘽𝙊𝙎𝙎:** {ALIVE_NAME}`" % (duration))
                  
                
                     
