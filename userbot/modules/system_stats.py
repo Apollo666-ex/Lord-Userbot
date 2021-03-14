@@ -308,8 +308,7 @@ async def amireallyalive(alive):
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
         f"[𝙍𝙚𝙥𝙤](https://github.com/Apollo666-ex/Apolo-Userbot) | [𝙂𝙧𝙤𝙪𝙥 𝙎𝙪𝙥𝙥𝙤𝙧𝙩](t.me/LordUserbot_Group) | [𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢](https://www.instagram.com/iqbarsymri)")
      if ALIVE_LOGO:
-        try:
-            logo = ALIVE_LOGO
+       try: logo = ALIVE_LOGO
             await alive.delete()
             msg = await bot.send_file(alive.chat_id, logo, caption=output)
             await asyncio.sleep(500)
