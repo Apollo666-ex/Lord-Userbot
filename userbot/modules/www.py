@@ -69,15 +69,15 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("⚡")
-    await pong.edit("__**APOLLO⚡**__")
-    await pong.edit("__**APOLL⚡O**__")
-    await pong.edit("__**APOL⚡LO**__")
-    await pong.edit("__**APO⚡LLO**__")
-    await pong.edit("__**⚡APOLLO⚡**__")
+    await pong.edit("🔥")
+    await pong.edit("__**APOLLO🔥**__")
+    await pong.edit("__**APOLL🔥O**__")
+    await pong.edit("__**APOL🔥LO**__")
+    await pong.edit("__**APO🔥LLO**__")
+    await pong.edit("__**🔥APOLLO🔥**__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**༆A̶P̶O̶L̶L̶O̶ ᴘɪɴɢ**\n"
+    await pong.edit(f"**༆ A̶P̶O̶L̶L̶O̶ ᴘɪɴɢ**\n"
                     f"☞︎︎︎ **ᴘɪɴɢ:** "
                     f"`%sms` \n"
                     f"☞︎︎︎ **ʜɪᴅᴜᴘ:** "
@@ -110,7 +110,9 @@ async def pingme(pong):
     await pong.edit("**✦҈͜͡➳ PONG!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**༆ ᴀᴘᴏʟʟᴏ ᴘɪɴɢ **\n"
+    await pong.edit(f"╭━━━━━━━━━╮
+                    f"⊏┊🅰︎🅿︎🅾︎🅻︎🅻︎🅾︎
+                    f"╰━━━━━━━━━╯
                     f"᯽ **ᴘɪɴɢ:** "
                     f"`%sms` \n"
                     f"᯽ **Uptime:** "
@@ -164,7 +166,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "❃ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "❃ **BOT:** `Lord Userbot`")
+                   "❃ **BOT:** `Apollo Userbot`")
 
 
 def speed_convert(size):
