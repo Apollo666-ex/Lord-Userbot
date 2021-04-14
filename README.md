@@ -12,18 +12,18 @@
 </p>  
 
 # Apollo Userbot
-![Apollo Userbot Logo](https://telegra.ph/file/62dc59b2013a48f9cc8f3.jpg)
+![Apollo Userbot Logo](https://telegra.ph/file/1585bf0ed844066afa557.jpg)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
 ### Repo Apollo Userbot
-Repo Yang Dibuat [Alvin](https://t.me/liualvinas) Dari Berbagai Repo Userbot Github 
+Repo Yang Dibuat [Apollo](https://t.me/blitzpluto) Dari Berbagai Repo Userbot Github 
 
 
 ### CARA MENDAPATKAN STRING SESSON
 
-Caranya Pergi Ke Grup Support Lord-Userbot Lalu Ketik #String [TEKAN DISINI](https://t.me/LordUserbot_Group) Untuk Masuk Ke Grup Support
+Caranya Pergi Ke Grup Support Apollo-Userbot Lalu Ketik #String [TEKAN DISINI](https://t.me/LordUserbot_Group) Untuk Masuk Ke Grup Support
 
 ## Bagaimana Cara Deploy?
 
