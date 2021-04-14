@@ -3,11 +3,11 @@
 
 <p align="center">
   <a href="https://github.com/Zora24/Lord-Userbot/fork">
-    <img src="https://img.shields.io/github/forks/Zora24/Lord-Userbot?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/Zora24/Apollo-Userbot?label=Fork&style=social">
     
   </a>
   <a href="https://github.com/Zora24/Lord-Userbot">
-    <img src="https://img.shields.io/github/stars/Zora24/Lord-Userbot?style=social">
+    <img src="https://img.shields.io/github/stars/Zora24/Apollo-Userbot?style=social">
   </a>
 </p>  
 
